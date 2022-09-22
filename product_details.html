@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css"
+        integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CGCellular</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <div class="container-lg">
+                <nav class="product-nav">
+                    <div class="row d-flex align-items-center top-nav ">
+                        <div class="col-2 d-flex align-items-center nav-logo">
+                            <a href="./index.html">LOGO</a>
+                        </div>
+                        <div class="col-10">
+                            <div class="row d-flex align-items-center pt-4">
+                                <ul
+                                    class="col-lg-10 d-flex justify-content-center align-items-center list-unstyled nav-links">
+                                    <li class="nav-item link-hover">
+                                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                        <div class="rounded-pill link-border"></div>
+                                    </li>
+                                    <li class="nav-item link-hover dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown">
+                                            Services
+                                        </a>
+                                        <div class="rounded-pill link-border active"></div>
+                                        <div class="dropdown-menu services-dropdown">
+                                            <div class="d-md-flex justify-content-between m-5">
+                                                <div>
+                                                    <p>Devices</p>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="./product_listing.html">Smart Phone</a></li>
+                                                        <li><a href="">Basic Phone</a></li>
+                                                        <li><a href="">Data Only Devices</a></li>
+                                                        <li><a href="">Sim Cards</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <p>Networks</p>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="">Red-Verizon</a></li>
+                                                        <li><a href="">Blue Att</a></li>
+                                                        <li><a href="">Purple Tmobile</a></li>
+                                                        <li><a href="">Pink/Purple Tmobile</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <p>Plans</p>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="">Individual Plans</a></li>
+                                                        <li><a href="">Unlimited Plans</a></li>
+                                                        <li><a href="">Data Only Plans</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item link-hover">
+                                        <a class="nav-link" href="#">Coverage Map</a>
+                                        <div class="rounded-pill link-border"></div>
+                                    </li>
+                                    <li class="nav-item link-hover">
+                                        <a class="nav-link" href="#">BYOD</a>
+                                        <div class="rounded-pill link-border"></div>
+                                    </li>
+                                    <li class="nav-item link-hover">
+                                        <a class="nav-link" href="#">Support</a>
+                                        <div class="rounded-pill link-border"></div>
+                                    </li>
+                                </ul>
+                                <ul class="col-lg-2 d-flex justify-content-end list-unstyled nav-icons">
+                                    <li class="nav-item">
+                                        <a class="nav-link" onclick="showcart()">
+                                            <i class="bi bi-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="user_details.html" class="nav-link">
+                                            <i class="bi bi-person"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" onclick="show()">
+                                        <a class="nav-link">
+                                            <i class="bi bi-list"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module-design hide" id="module">
+                        <div class="d-flex justify-content-between gap-5">
+                            <h4>Menu</h4>
+                            <a class="close" onclick="closeMenu()">
+                                <i class="bi bi-x-lg"></i>
+                            </a>
+                        </div>
+                        <ul class="d-flex flex-column gap-3 list-unstyled align-items-start my-auto mt-5">
+                            <li><a href="#"><i class="bi bi-person"></i>Login/Register</a></li>
+                            <li><a href="#"><i class="bi bi-cart"></i>Orders</a></li>
+                            <li><a href="wishlisht.html"><i class="bi bi-heart"></i>Wishlist</a></li>
+                            <li><a href="#"><span class="icon-bell-1"></span>Notifications</a></li>
+                            <li><a href="#"><span class="icon-Group-799"></span>FAQs</a></li>
+                            <li><a href="#"><span class="icon-place"></span>Store Locators</a></li>
+                            <li><a href="#"><span class="icon-interview"></span>Services Request</a></li>
+                            <li><a onclick="user_logout()"><i class="bi bi-box-arrow-right"></i>Logout</a></li>
+                        </ul>
+                        <ul class="d-none flex-column gap-3 list-unstyled sidenav-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Coverage Map</a></li>
+                            <li><a href="#">BYOD</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="breadcrumb-part" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Services</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Devices</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Smart Phones</a></li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">Samsung...</li>
+                        </ol>
+                    </div>
+                </nav>
+            </div>
+            <div class="product-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#ffffff" fill-opacity="1"
+                        d="M0,224L80,218.7C160,213,320,203,480,170.7C640,139,800,85,960,74.7C1120,64,1280,96,1360,112L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
+            <div id="cart-model" class="cart position-fixed shadow text-white p-5 cart-hide">
+                <div class="d-flex justify-content-between">
+                    <h4>Cart</h4>
+                    <a class="close" onclick="closecart()"><i class="bi bi-x-circle"></i></a>
+                </div>
+                <table class="table text-white mt-4">
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th colspan="2">Item</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-table">
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Total</td>
+                            <td></td>
+                            <td id="total">$0</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="d-flex justify-content-end" id="checkout-btn">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="prodruct-details">
+            <div class="container">
+                <div class="card shadow">
+                    <div class="row p-5">
+                        <div class="col-md-4 border-end">
+                            <div class="img-slider d-flex justify-content-center">
+                                <div class="owl-carousel owl-theme" id="img-slider">
+                                    <div class="item">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <img src="./images/slider-mobile.png" alt="slider-img1">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <img src="./images/slider-mobile.png" alt="slider-img1">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <img src="./images/slider-mobile.png" alt="slider-img1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 px-5">
+                            <div class="d-flex align-items-center gap-5">
+                                <h5 class="item-name">Samsung Galaxy J3v</h5>
+                                <span class="sub-heading">Blue Att</span>
+                            </div>
+                            <div class="product-description">
+                                <span class="d-block">Smart Phone</span>
+                                <span class="d-block model-no">B102345</span>
+                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod
+                                    Tempor
+                                    Invidunt
+                                    Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam
+                                    Et
+                                    Justo Duo
+                                    Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea
+                                </p>
+                            </div>
+                            <div class="rating-pricing">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                                <div class="d-sm-flex justify-content-start gap-4 pricing">
+                                    <span class="price-bold">70.00</span>
+                                    <span class="text-decoration-line-through">$80.00</span>
+                                    <span class="discount">(20% Off)</span>
+                                </div>
+                                <div class="d-xl-flex align-items-xl-center gap-4 py-2">
+                                    <button class="d-block btn rounded-pill add-to-cart" type="button">Add To
+                                        Cart</button>
+                                    <button class="d-block btn buy-btn rounded-pill" type="button">Buy Now</button>
+                                    <a class="d-block return-policy" href="">Review Return Policy</a>
+                                </div>
+                                <div class="specification">
+                                    <span>Product Specifications</span>
+                                    <ul class="list-unstyled">
+                                        <li>1)Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr</li>
+                                        <li>2)Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore </li>
+                                        <li>3)Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua.</li>
+                                        <li>4)At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum.</li>
+                                        <li>5)Stet Clita Kasd Gubergren, No Sea Takimata Sanctus Est</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="similar-search">
+            <div class="container">
+                <div class="heading">
+                    <h3>Similar searches</h3>
+                    <p>Products Similar To Above Results</p>
+                </div>
+                <div class="row mt-5" id="similar-pro">
+                    <!-- similar-product-data-js -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1"
+                    d="M0,32L80,37.3C160,43,320,53,480,90.7C640,128,800,192,960,192C1120,192,1280,128,1360,96L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+                </path>
+            </svg>
+        </div>
+        <div class="container">
+            <a class="footer-logo" href="#">LOGO</a>
+            <div class="d-lg-flex justify-content-between">
+                <div class="my-5">
+                    <h5 class="item-name">Sitemap</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Term & Conditions</a></li>
+                        <li><a href="">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="align-self-end my-5">
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="">Refund & Cancellation Policy</a></li>
+                        <li><a href="">Warranty</a></li>
+                        <li><a href="">FAQ's</a></li>
+                    </ul>
+                </div>
+                <div class="media-links my-5">
+                    <h5 class="text-lg-center">Social Media Links</h5>
+                    <div class="mt-5 d-lg-flex justify-content-between">
+                        <a href="#"><span class="icon-search-3 rounded-circle google"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span><span
+                                    class="path4"></span></span></a>
+                        <a href="#"><span class="icon-Group-368 facebook rounded-circle"></span></a>
+                        <a href="#"><span class="bi bi-instagram rounded-circle text-danger insta"></span></a>
+                        <a href="#"><span class="icon-Group-365 twiter rounded-circle"></span></a>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <h5 class="item-name">Subscribe To Our Newsletter</h5>
+                    <div class="serch-box d-lg-flex justify-content-center mt-4">
+                        <form class="rounded-pill d-flex align-items-center justify-content-between px-2 py-2">
+                            <input class="ms-3" type="text" placeholder="Enter Email Id">
+                            <a href="" class="d-inline bg-white rounded-circle"><i class="bi bi-arrow-right"></i></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrights">
+                <p class="text-center pt-5">&#169 Copyright 2020. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/getProducts.js"></script>
+<script src="js/main.js"></script>
+
+</html>

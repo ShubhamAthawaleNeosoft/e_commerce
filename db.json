@@ -1,0 +1,258 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "foo",
+      "body": "bar",
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Wireless Router1",
+      "image": "./images/router.png",
+      "discountPrice": "60.00",
+      "orignalPrice": "80.00",
+      "rating": 4,
+      "pid": "1",
+      "category": "router"
+    },
+    {
+      "name": "Wireless Router2",
+      "image": "./images/router.png",
+      "discountPrice": "65.00",
+      "orignalPrice": "80.00",
+      "rating": 2,
+      "pid": "2",
+      "category": "router"
+    },
+    {
+      "name": "Wireless Router3",
+      "image": "./images/router.png",
+      "discountPrice": "70.00",
+      "orignalPrice": "80.00",
+      "rating": 4,
+      "pid": "3",
+      "category": "router"
+    },
+    {
+      "name": "Wireless Router4",
+      "image": "./images/router.png",
+      "discountPrice": "55.00",
+      "orignalPrice": "80.00",
+      "rating": 5,
+      "pid": "4",
+      "category": "router"
+    },
+    {
+      "name": "Samsung Galaxy z1",
+      "image": "./images/mobile.png",
+      "color": "Black",
+      "discountPrice": "60.00",
+      "orignalPrice": "80.00",
+      "rating": 4,
+      "pid": "5",
+      "category": "phones"
+    },
+    {
+      "name": "Asus max pro",
+      "image": "./images/mobile.png",
+      "color": "Red",
+      "discountPrice": "55.00",
+      "orignalPrice": "80.00",
+      "rating": 3,
+      "pid": "6",
+      "category": "phones"
+    },
+    {
+      "name": "Samsung Galaxy 11",
+      "image": "./images/mobile.png",
+      "color": "Black",
+      "discountPrice": "82.00",
+      "orignalPrice": "80.00",
+      "rating": 5,
+      "pid": "7",
+      "category": "phones"
+    },
+    {
+      "name": "One pluse 11",
+      "image": "./images/mobile.png",
+      "color": "Red",
+      "discountPrice": "62.00",
+      "orignalPrice": "80.00",
+      "rating": 3,
+      "pid": "8",
+      "category": "phones"
+    },
+    {
+      "name": "Samsung pro 9",
+      "image": "./images/mobile.png",
+      "color": "Red",
+      "discountPrice": "75.00",
+      "orignalPrice": "80.00",
+      "rating": 4,
+      "pid": "9",
+      "category": "phones"
+    },
+    {
+      "name": "Asus zenphone",
+      "image": "./images/mobile.png",
+      "color": "Black",
+      "discountPrice": "74.00",
+      "orignalPrice": "80.00",
+      "rating": 4,
+      "pid": "10",
+      "category": "phones"
+    },
+    {
+      "name": "Samsung Galaxy J3v",
+      "image": "./images/mobile.png",
+      "color": "Black",
+      "discountPrice": "72.00",
+      "orignalPrice": "80.00",
+      "rating": 3,
+      "pid": "11",
+      "category": "similar-products"
+    },
+    {
+      "name": "Samsung Galaxy L13v",
+      "image": "./images/mobile.png",
+      "color": "Black",
+      "discountPrice": "72.00",
+      "orignalPrice": "80.00",
+      "rating": 3,
+      "pid": "12",
+      "category": "similar-products"
+    },
+    {
+      "name": "Samsung Galaxy A23x",
+      "image": "./images/mobile.png",
+      "color": "Black",
+      "discountPrice": "72.00",
+      "orignalPrice": "80.00",
+      "rating": 3,
+      "pid": "13",
+      "category": "similar-products"
+    },
+    {
+      "name": "Samsung Galaxy Z33v",
+      "image": "./images/mobile.png",
+      "color": "Black",
+      "discountPrice": "72.00",
+      "orignalPrice": "80.00",
+      "rating": 3,
+      "pid": "14",
+      "category": "similar-products"
+    }
+  ],
+  "users": [
+ 
+  ],
+  "wishlist": [
+    {
+      "pro_name": "Asus max pro",
+      "pro_image": "./images/mobile.png",
+      "pro_price": "55.00",
+      "pid": "6",
+      "user_id": "1",
+      "id": 2
+    },
+    {
+      "pro_name": "Samsung pro 9",
+      "pro_image": "./images/mobile.png",
+      "pro_price": "75.00",
+      "pid": "9",
+      "user_id": "1",
+      "id": 5
+    },
+    {
+      "pro_name": "Samsung Galaxy 11",
+      "pro_image": "./images/mobile.png",
+      "pro_price": "82.00",
+      "pid": "7",
+      "user_id": "1",
+      "id": 6
+    },
+    {
+      "pro_name": "Samsung Galaxy z1",
+      "pro_image": "./images/mobile.png",
+      "pro_price": "60.00",
+      "pid": "5",
+      "user_id": "1",
+      "id": 7
+    },
+    {
+      "pro_name": "One pluse 11",
+      "pro_image": "./images/mobile.png",
+      "pro_price": "62.00",
+      "pid": "8",
+      "user_id": "1",
+      "id": 8
+    },
+    {
+      "pro_name": "Asus zenphone",
+      "pro_image": "./images/mobile.png",
+      "pro_price": "74.00",
+      "pid": "10",
+      "user_id": "1",
+      "id": 9
+    }
+  ],
+  "productsCart": [
+    {
+      "pro_name": "Samsung Galaxy z1",
+      "pro_image": "./images/mobile.png",
+      "pro_price": "60.00",
+      "ProUpdatedPrice": 360,
+      "pro_quanity": 6,
+      "pid": "5",
+      "user_id": "1",
+      "id": 4
+    },
+    {
+      "pro_name": "Wireless Router3",
+      "pro_image": "./images/router.png",
+      "pro_price": "70.00",
+      "ProUpdatedPrice": 140,
+      "pro_quanity": 2,
+      "pid": "3",
+      "user_id": "1",
+      "id": 6
+    },
+    {
+      "pro_name": "Samsung pro 9",
+      "pro_image": "./images/mobile.png",
+      "pro_price": "75.00",
+      "ProUpdatedPrice": 225,
+      "pro_quanity": 3,
+      "pid": "9",
+      "user_id": "2",
+      "id": 14
+    },
+    {
+      "pro_name": "Asus max pro",
+      "pro_image": "./images/mobile.png",
+      "pro_price": "55.00",
+      "ProUpdatedPrice": "55.00",
+      "pro_quanity": "1",
+      "pid": "6",
+      "user_id": "2",
+      "id": 15
+    },
+    {
+      "pro_name": "Wireless Router1",
+      "pro_image": "./images/router.png",
+      "pro_price": "60.00",
+      "ProUpdatedPrice": 180,
+      "pro_quanity": 3,
+      "pid": "1",
+      "user_id": "2",
+      "id": 16
+    }
+  ]
+}

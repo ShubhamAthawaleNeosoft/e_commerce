@@ -1,0 +1,107 @@
+.img-slider img {
+  height: 356px !important;
+  width: 181px !important;
+}
+.img-slider .owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 30px);
+  right: 0px;
+  font-size: 20px !important;
+  z-index: 1;
+}
+.img-slider .owl-nav .owl-next i {
+  font-weight: bolder;
+  color: #9A9A9A;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #E5E5E5;
+  transition: all 0.5s ease-in-out;
+  background-color: #E5E5E5;
+}
+.img-slider .owl-nav .owl-next i:hover {
+  background-color: transparent;
+  border: 1px solid #E5E5E5;
+}
+.img-slider .owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: 0px;
+  font-size: 20px !important;
+  z-index: 1;
+}
+.img-slider .owl-nav .owl-prev i {
+  font-weight: bolder;
+  background-color: #E5E5E5;
+  color: #9A9A9A;
+  border-radius: 20px;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.img-slider .owl-nav .owl-prev i:hover {
+  background-color: transparent;
+  border: 1px solid #E5E5E5;
+}
+.img-slider .owl-theme .owl-dots {
+  z-index: 1;
+  position: relative;
+}
+.img-slider .owl-theme .owl-dots span {
+  height: 10px;
+  width: 10px;
+}
+.img-slider .owl-theme .owl-dots .owl-dot.active span {
+  background-color: #CD040B;
+  opacity: 0.5;
+}
+.img-slider .owl-theme .owl-nav [class*=owl-]:hover {
+  background: transparent;
+}
+
+.prodruct-details .card {
+  text-align: left;
+}
+.prodruct-details .card .product-description span {
+  color: #9A9A9A;
+  font-family: "Roboto";
+}
+.prodruct-details .card .product-description .model-no {
+  font-weight: bold;
+  font-family: "Roboto-bold";
+  color: #333333;
+  padding: 1rem 0;
+}
+.prodruct-details .card .product-description p {
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.prodruct-details .card .rating-pricing .stars {
+  padding: 2rem 0 0.5rem 0;
+  font-size: 2.2rem;
+}
+.prodruct-details .card .card {
+  text-align: left;
+}
+.prodruct-details .card .card .pricing {
+  justify-content: left !important;
+  gap: 2.5rem;
+}
+.prodruct-details .card .return-policy {
+  color: #CD040B;
+  font-family: "Roboto-bold";
+  font-size: 1.8rem;
+  text-align: left;
+}
+.prodruct-details .card .specification {
+  padding-top: 1rem;
+  color: #333333;
+}
+.prodruct-details .card .specification ul li {
+  padding-top: 1.5rem;
+  font-size: 1.6rem;
+  font-family: "Roboto";
+}
+.prodruct-details .card .specification span {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 1.6rem;
+}/*# sourceMappingURL=product-details.css.map */

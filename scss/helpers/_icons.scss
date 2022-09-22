@@ -1,0 +1,165 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?y8az60');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?y8az60#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?y8az60') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?y8az60') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?y8az60##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lorry {
+  &:before {
+    content: $icon-lorry;     
+    color: #cd040b;
+  }
+}
+.icon-support {
+  &:before {
+    content: $icon-support;     
+    color: #cd040b;
+  }
+}
+.icon-wallet-1 {
+  &:before {
+    content: $icon-wallet-1;     
+    color: #cd040b;
+  }
+}
+.icon-arrows-1 {
+  &:before {
+    content: $icon-arrows-1;     
+    color: #639;
+  }
+}
+.icon-bell-1 {
+  &:before {
+    content: $icon-bell-1;     
+    color: #fbfbfb;
+  }
+}
+.icon-devices {
+  &:before {
+    content: $icon-devices;     
+    color: #639;
+  }
+}
+.icon-Group-238 {
+  &:before {
+    content: $icon-Group-238; 
+  }
+}
+.icon-Group-365 {
+  &:before {
+    content: $icon-Group-365;     
+    color: #3cf;
+  }
+}
+.icon-Group-368 {
+  &:before {
+    content: $icon-Group-368;     
+    color: #3c5a99;
+  }
+}
+.icon-Group-758 {
+  &:before {
+    content: $icon-Group-758;     
+    color: #639;
+  }
+}
+.icon-Group-799 {
+  &:before {
+    content: $icon-Group-799;     
+    color: #fff;
+  }
+}
+.icon-heart-1 {
+  &:before {
+    content: $icon-heart-1; 
+  }
+}
+.icon-Icon-feather-search {
+  &:before {
+    content: $icon-Icon-feather-search; 
+  }
+}
+.icon-Icon-feather-shopping-cart {
+  &:before {
+    content: $icon-Icon-feather-shopping-cart; 
+  }
+}
+.icon-Icon-feather-user {
+  &:before {
+    content: $icon-Icon-feather-user;
+  }
+}
+.icon-interview {
+  &:before {
+    content: $icon-interview;     
+    color: #fff;
+  }
+}
+.icon-Path-469 {
+  &:before {
+    content: $icon-Path-469;     
+    color: #fff;
+  }
+}
+.icon-place {
+  &:before {
+    content: $icon-place;     
+    color: #fff;
+  }
+}
+.icon-search-3 .path1 {
+  &:before {
+    content: $icon-search-3-path1;  
+    color: rgb(251, 187, 0);
+  }
+}
+.icon-search-3 .path2 {
+  &:before {
+    content: $icon-search-3-path2;  
+    margin-left: -1em;  
+    color: rgb(81, 142, 248);
+  }
+}
+.icon-search-3 .path3 {
+  &:before {
+    content: $icon-search-3-path3;  
+    margin-left: -1em;  
+    color: rgb(40, 180, 70);
+  }
+}
+.icon-search-3 .path4 {
+  &:before {
+    content: $icon-search-3-path4;  
+    margin-left: -1em;  
+    color: rgb(241, 67, 54);
+  }
+}
+.icon-support1 {
+  &:before {
+    content: $icon-support1; 
+  }
+}
+

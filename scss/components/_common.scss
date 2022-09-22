@@ -1,0 +1,159 @@
+.heading{
+    h3{
+        color: $text-blue;
+    }
+    p{
+        padding-left: 5px;
+        font-size: 2.8rem;
+        font-family: $roboto-bold;
+    }
+}
+@include sm{ 
+    .heading{
+           p{
+            font-size: 2rem;
+           }
+
+        }
+}
+
+.serch-box{
+    font-family: $roboto;
+    form{
+        width: 60%;
+        overflow: hidden;
+        background-color: $white;
+        background:rgba(255, 255, 255, 0.2);
+        i{
+            color: $white;
+        }
+    }
+    input{
+        border: none;
+        outline: none;
+        width:40rem;
+        background-color: transparent;
+        color: $white;
+    }
+    @include rwd{
+        input{
+            width: auto;
+        }
+    }
+    input::placeholder{
+        color: $white;
+    }
+    a{
+        padding: 3px 6px;
+    }
+    .bi-arrow-right{
+        color: $red;
+        font-size: 28px;
+        
+    }
+    @include md {
+    form{
+        width: 95%;
+    }
+    }
+}
+.media-links{
+    .google,.facebook,.twiter,.insta{
+         background-color: white;
+         padding: 10px;
+         margin: 3px;
+    }
+    .facebook{
+        padding: 10px 14px ;
+    }
+}
+
+
+.card {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 3px;
+
+    .stars {
+        margin: 0 0 1.2rem 0;
+
+        .bi-star-fill {
+            color: $yellow;
+        }
+    }
+
+    h3 {
+        color: $text-black;
+    }
+    h5{
+        color: $text-black;
+        // padding: 2rem 0 1rem 0;
+    }
+    img{
+        padding-bottom:2rem ;
+    }
+    .card-details{
+        padding-top: 1rem;
+    }
+    .sub-heading{
+        padding-bottom: 1rem;
+        display: block;
+        color: $sky-blue;
+        font-size: 16px;
+        font-family: $roboto-bold;
+    }
+    .text-decoration-line-through{
+        font-family: $roboto;
+        color: $light-gray;
+        font-family: $roboto;
+    }
+    .quantity,.discount{
+        color: $text-blue;
+        font-family: $roboto;
+    }
+    .quantity{
+        padding-top:0.8rem ;
+    }
+    .price-bold{
+        color: $text-black;
+        font-family: $roboto-bold;
+        font-weight: bold;
+    }
+    .price-bold::before{
+        content: "$";
+    }
+    
+    .card-btn{
+        display: none;
+        padding: 0.6rem 0;
+    }
+    .mobile-acc {
+        padding: 3.5rem 4.0rem;
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to bottom, rgba(55, 23, 142, 0.2), rgba(180, 27, 79, 0.2));
+
+        h3 {
+            color: $text-blue;
+            font-family: $roboto-bold;
+        }
+
+        p {
+            font-size: 18px;
+            font-family: $roboto-medium;
+            color: $text-blue;
+        }
+    }
+}
+@include rwd{
+    .card{
+        text-align: center;
+        .pricing{
+            justify-content: center !important;
+            gap: 2.5rem;
+        }
+    }
+}
+.bi-heart-fill{
+    cursor: pointer;
+}

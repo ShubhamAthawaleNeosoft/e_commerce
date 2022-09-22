@@ -1,0 +1,196 @@
+.banner-links {
+    margin-top: -160px;
+
+    .devices,
+    .networks,
+    .plans {
+        span {
+            font-size: 36px;
+        }
+
+        p {
+            font-family: $roboto-bold;
+            font-size: 20px;
+            color: $text-blue;
+            padding: 9px 0;
+
+        }
+
+        li:not(:first-child) {
+            margin-top: 18px;
+        }
+
+        a {
+            font-size: 20px;
+            font-family: $roboto-medium;
+            color: $text-black;
+            transition: all 0.3s ease-in-out;
+        }
+        a:hover{
+            color: $text-blue;
+        }
+    }
+
+    .networks {
+        margin-top: 80px;
+    }
+
+    .plans {
+        margin-top: 125px;
+    }
+
+    .devices-networks {
+        margin-top: 98px;
+        padding: 0 10px;
+        opacity: 50%;
+
+        span {
+            border: 1px solid $text-blue;
+            height: 330px;
+            width: 1px;
+        }
+
+        div {
+            height: 46px;
+            width: 46px;
+            background-color: $text-blue ;
+        }
+        div:hover{
+            opacity: 90%;
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        }
+    }
+
+    .networks-plans {
+        margin-top: 50px;
+        padding: 0 5px;
+        opacity: 50%;
+
+        span {
+            border: 1px solid $text-blue;
+            height: 300px;
+            width: 1px;
+        }
+
+        div {
+            height: 46px;
+            width: 46px;
+            background-color: $text-blue ;
+        }
+        div:hover{
+            opacity: 90%;
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        }
+    }
+
+    @include sm {
+        .banner-man-img {
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    @include max-xl {
+
+        .networks-plans,
+        .devices-networks {
+            display: none !important;
+        }
+
+        .networks,
+        .plans,
+        .devices {
+            margin-top: 3rem;
+        }
+    }
+
+    @include md {
+        .main-content {
+            .banner-links {
+                justify-content: center !important;
+                background-color: red;
+                border: 1px solid red;
+            }
+        }
+
+        .networks,
+        .plans,
+        .devices {
+            // border: 1px solid $light-gray;
+            border-radius: 20px;
+            margin: 3rem;
+            text-align: center;
+            padding: 1rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    }
+
+}
+
+.top-products {
+    margin: 80px 0 126px 0;
+    .pro-price{
+        font-family: $roboto-bold;
+    }
+}
+
+.high-speed-data {
+    margin: auto;
+
+    .slider-text {
+        font-family: $roboto;
+        background-color: $red;
+        color: $white;
+        // width: 77.2rem;
+        padding: 12.2rem 7.0rem 9.4rem 7.0rem;
+        margin: auto;
+    }
+    @include sm{
+        .slider-text {
+            padding: 12.2rem 3.0rem 5.4rem 3.0rem;
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .slider-img {
+        margin-bottom: -7.4rem;
+        position: relative;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    
+    .services {
+        margin: 10.2rem 0;
+
+        .text-center {
+            margin: 1rem;
+        }
+
+        span {
+            font-size: 50px;
+        }
+
+        p {
+            color: $light-gray;
+            font-family: $roboto;
+        }
+    }
+}
+
+.slider{
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -40px;
+    z-index: 1;
+    position: relative;
+
+}
+}
+
+  

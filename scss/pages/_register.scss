@@ -1,0 +1,131 @@
+.login-banner {
+    height: 70vh;
+    background-image: linear-gradient(to right, rgba(55, 23, 142, 0.7), rgba(180, 27, 79, 0.7));
+
+    .main {
+        padding: 5.4rem 0;
+
+        .card {
+            overflow: hidden;
+            z-index: 1;
+            margin: 0;
+            padding: 0 0.7rem;
+
+
+            @include rwd {
+                .mobile-acc {
+                    padding: 3rem 0;
+                }
+            }
+
+            .login-form {
+                padding: 2.4rem 0;
+                font-family: $roboto;
+
+                .log-details {
+                    padding: 17px 0;
+
+                    a {
+
+                        text-decoration: none;
+                        color: $red;
+                    }
+                }
+
+                form {
+                    height: 510px;
+                    overflow-y: scroll;
+                    padding: 2.5rem 0;
+
+                    input {
+                        outline: none;
+                        border: none;
+                        width: 38rem;
+                        background-color: $lighter-gray;
+                        padding: 1.2rem 2rem;
+                        font-family: $roboto;
+
+                        &::placeholder {
+                            color: $light-gray;
+                        }
+                    }
+
+                    @include sm {
+                        input {
+                            width: 80%;
+                        }
+                    }
+
+                    input:not(:first-child) {
+                        margin-top: 4.2rem;
+                    }
+                }
+
+                ::-webkit-scrollbar {
+                    width: 10px;
+                }
+
+                ::-webkit-scrollbar-track {
+                    border-radius: 10px;
+                }
+
+                ::-webkit-scrollbar-thumb {
+                    background-image: linear-gradient(to bottom, rgba(55, 23, 142, 0.7), rgba(180, 27, 79, 0.7));
+                    border-radius: 10px;
+                }
+            }
+
+            .details-table {
+                .acc-info {
+                    color: $text-blue;
+                    // background-color: red;
+                    font-family: $roboto-bold;
+                    font-weight: bolder;
+                    font-size: 20px;
+                }
+                table {
+                    margin: 2rem 1rem;
+                   
+                    tr{
+                        // border: 1px solid red;
+                        border-spacing: 0 1rem;
+                        td{
+                            padding:  1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.checkout-details{
+
+    h4,h5{
+        color: $text-blue;
+        font-family: $roboto-bold;
+    }
+    // h5{
+    //     padding-top: 1rem;
+    // }
+    table {
+        margin: 2rem 1rem;
+       
+        tr{
+            // border: 1px solid red;
+            border-spacing: 0 1rem;
+            td{
+                padding:  1rem;
+            }
+        }
+    }
+    
+}
+.login-svg {
+    margin-top: -520px;
+
+    svg {
+        width: 100%;
+    }
+}

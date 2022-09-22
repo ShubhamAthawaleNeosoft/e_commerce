@@ -1,0 +1,122 @@
+@import "../helpers/variables";
+.img-slider{
+    img{
+    height: 356px !important;
+    width: 181px !important;
+}
+    .owl-nav{
+        .owl-next{
+            position: absolute;
+            top:calc((50% - 30px));
+            right: 0px;
+            font-size: 20px !important;
+            z-index: 1;
+            i{
+                font-weight: bolder;
+                color: $light-gray;
+                border-radius: 20px;
+                padding: 10px;
+                border: 1px solid $gray;
+                transition: all 0.5s ease-in-out;
+                background-color: $gray;
+            }
+            i:hover{
+                background-color: transparent;
+                border: 1px solid $gray; 
+            }
+        }
+        .owl-prev{
+            position: absolute;
+            top:calc((50% - 30px));
+            left: 0px;
+            font-size: 20px !important;
+            z-index: 1;
+            i{
+                font-weight: bolder;
+                background-color: $gray;
+                color: $light-gray;
+                border-radius: 20px;
+                padding: 10px;
+                transition: all 0.5s ease-in-out;
+            }
+            i:hover{
+                background-color: transparent; 
+                border: 1px solid $gray;
+            }
+        }
+    }
+    .owl-theme {
+        .owl-dots{
+            z-index: 1;
+            position: relative;
+            span{
+                height: 10px;
+                width: 10px;
+            }
+            .owl-dot.active span{
+                background-color: #CD040B;
+                opacity: 0.5;
+            }
+        }
+        
+        .owl-nav [class*=owl-]:hover {
+            background: transparent;
+        }
+        }
+    }
+    .prodruct-details{
+    .card{
+        text-align: left;
+        .product-description{
+            span{
+                color: $light-gray;
+                font-family: $roboto;
+            }
+            .model-no{
+                font-weight: bold;
+                font-family: $roboto-bold;
+                color: $text-black;
+                padding: 1rem 0;
+            }
+            p{
+                font-family: $roboto;
+                font-size: 16px;
+            }
+        }
+        .rating-pricing{
+            .stars{
+                padding: 2rem 0 0.5rem 0;
+                font-size: 2.2rem ;
+            }
+        }
+        .card{
+            text-align: left;
+            .pricing{
+                justify-content: left !important;
+                gap: 2.5rem;
+            }
+        }
+        .return-policy{
+            color: $red;
+            font-family: $roboto-bold;
+            font-size: 1.8rem;
+            text-align: left;
+        }
+        .specification{
+            padding-top: 1rem;
+            color: $text-black;
+            ul{
+                li{
+                    padding-top: 1.5rem;
+                    font-size: 1.6rem;
+                    font-family: $roboto;
+                }
+            }
+            span{
+                font-family: $roboto;
+                font-weight: bold;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}

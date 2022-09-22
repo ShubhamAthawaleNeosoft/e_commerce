@@ -1,0 +1,68 @@
+footer {
+    background-image: linear-gradient(to right, rgba(55, 23, 142, 0.9), rgba(180, 27, 79, 0.9));
+    color: $white;
+    padding: 0 0 2.3rem 0;
+    .footer-svg{
+        height: 180px;
+    }
+    .footer-logo {
+        font-size: 5.8rem;
+        font-family: $roboto-bold;
+    }
+
+    a {
+        color: $white;
+        font-size: 1.6rem;
+        font-family: $roboto;
+        transition: all 0.3 ease-in-out;
+    }
+    a:hover {
+        color: $red;
+    }
+
+    .serch-box {
+        form {
+            width: 390px;
+
+            input {
+                font-size: 16px;
+            }
+        }
+    }
+
+    li:not(:first-child) {
+        padding-top: 6px;
+    }
+}
+
+@include rwd {
+    footer {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            li:not(:first-child) {
+                padding-top: 0px;
+            }
+            li:not(:last-child)::after {
+                content: "|";
+                padding: 10px;
+            }
+        }
+        .media-links{
+            h5{
+                margin-bottom: 2rem;
+            }
+        }
+        .serch-box {
+            form {
+                width: 80%;
+            }
+        }
+    }
+}
+
+.copyrights {
+    border-top: 1px solid $light-gray;
+    font-size: 14px;
+    font-family: $roboto;
+}
